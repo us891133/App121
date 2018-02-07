@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xCc-xm-9Y1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9pv-A4-QxB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -35,6 +35,7 @@
                                 <state key="normal" title="聊聊" image="comment-1.png"/>
                                 <connections>
                                     <action selector="gotocomment:" destination="9pv-A4-QxB" eventType="touchUpInside" id="N0D-OM-7G4"/>
+                                    <action selector="push:" destination="9pv-A4-QxB" eventType="touchUpInside" id="dFU-rP-2pS"/>
                                 </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hu4-sb-u9O">
@@ -55,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="713" y="-120"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oFN-oD-CxA">
@@ -71,7 +72,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHa-Pr-p5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582" y="-896"/>
+            <point key="canvasLocation" x="713" y="-903"/>
         </scene>
         <!--聊聊-->
         <scene sceneID="oeS-Ns-nBL">
@@ -173,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBn-QF-fVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582" y="-151"/>
+            <point key="canvasLocation" x="1542" y="-881"/>
         </scene>
         <!--Caths-->
         <scene sceneID="VRZ-kx-2uI">
@@ -188,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38s-zn-644" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2353" y="-186"/>
+            <point key="canvasLocation" x="1542" y="-120"/>
         </scene>
         <!--會員-->
         <scene sceneID="msv-zB-IFt">
@@ -220,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNp-SG-Uq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-758" y="-321"/>
+            <point key="canvasLocation" x="-1607" y="743"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XWi-ue-mL7">
@@ -238,7 +239,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWM-cQ-nsy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1442" y="0.0"/>
+            <point key="canvasLocation" x="-950" y="-120"/>
         </scene>
         <!--搜尋-->
         <scene sceneID="gxc-IP-2K5">
@@ -277,7 +278,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-759.20000000000005" y="381.85907046476763"/>
+            <point key="canvasLocation" x="-740" y="743"/>
         </scene>
         <!--購物車-->
         <scene sceneID="9Sa-f1-HWL">
@@ -361,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+            <point key="canvasLocation" x="713" y="743"/>
         </scene>
         <!--Capp121 Firebase-->
         <scene sceneID="pgX-vl-iab">
@@ -414,7 +415,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROb-fk-2Mu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1479" y="420"/>
+            <point key="canvasLocation" x="1542" y="591"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -436,7 +437,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2" y="-120"/>
+            <point key="canvasLocation" x="-70" y="-120"/>
         </scene>
     </scenes>
     <resources>

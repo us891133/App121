@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import FirebaseAuth
 class FirstViewController: UIViewController {
 
     @IBAction func gotocomment(_ sender: UIButton) {
@@ -18,6 +18,15 @@ class FirstViewController: UIViewController {
         }
         
     }
+    
+    @IBAction func push(_ sender: UIButton) {
+       let vc =
+        self.push(UIButton)
+      
+       self.present(vc!, animated: true) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
